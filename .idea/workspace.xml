@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="438d8b19-f9b2-4685-a559-9a8d54c57350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tqtq/FirstApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tqtq/SimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tqtq/WebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tqtq/domain/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tqtq/junit/SimpleJunit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="438d8b19-f9b2-4685-a559-9a8d54c57350" name="Changes" comment="allure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tqtq/allure/LambdaStepTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tqtq/allure/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tqtq/allure/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +26,40 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -58,28 +85,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.SimpleJunit">
-    <configuration name="SimpleJunit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tqtq.junit.SimpleJunit" />
-      <module name="java1.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tqtq.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTest.secondTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tqtq.allure" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.java1 [allureServe]">
+    <configuration name="LambdaStepTest.testGithubIssue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -92,7 +112,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.tqtq.SimpleTest.secondTest&quot;" />
+            <option value="&quot;com.tqtq.allure.LambdaStepTest.testGithubIssue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -102,7 +122,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelenideTest.testGithubIssue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -115,7 +135,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.tqtq.WebTest&quot;" />
+            <option value="&quot;com.tqtq.allure.SelenideTest.testGithubIssue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -125,59 +145,76 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebTest.methodSourceExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="java1 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.tqtq.WebTest.methodSourceExample&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebTest.yaSearchMenuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="java1 [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.tqtq.WebTest.yaSearchMenuTest&quot;" />
+            <option value="check" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="java1 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleJunit" />
-        <item itemvalue="Gradle.SimpleTest.secondTest" />
-        <item itemvalue="Gradle.WebTest.methodSourceExample" />
-        <item itemvalue="Gradle.WebTest.yaSearchMenuTest" />
-        <item itemvalue="Gradle.WebTest" />
+        <item itemvalue="Gradle.java1 [allureServe]" />
+        <item itemvalue="Gradle.LambdaStepTest.testGithubIssue" />
+        <item itemvalue="Gradle.SelenideTest.testGithubIssue" />
+        <item itemvalue="Gradle.java1 [clean]" />
+        <item itemvalue="Gradle.java1 [check]" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +227,14 @@
       <option name="presentableId" value="Default" />
       <updated>1652902977033</updated>
     </task>
+    <task id="LOCAL-00001" summary="allure">
+      <created>1653239126757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653239126757</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,5 +247,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="allure" />
   </component>
 </project>
