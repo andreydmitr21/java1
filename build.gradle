@@ -15,13 +15,13 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:5.8.2",
             "org.slf4j:slf4j-simple:1.7.36",
             'com.codeborne:selenide:6.4.0',
-            'io.qameta.allure:allure-selenide:2.17.3'
+            'io.qameta.allure:allure-selenide:2.18.0'
     )
 }
 
 allure {
     report {
-        version.set("2.17.3") //версия Allure Report (https://github.com/allure-framework/allure2)
+        version.set("2.18.0") //версия Allure Report (https://github.com/allure-framework/allure2)
     }
     adapter {
         aspectjWeaver.set(true) // обработка аннотации @Step

@@ -12,33 +12,25 @@ import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
 public class AnnotatedStepTest {
-//    @BeforeAll
+    //    @BeforeAll
 //    static void start(){
 //        SelenideLogger.addListener("allure-selenide", new AllureSelenide()
 //                .screenshots(true)
 //                .savePageSource(true));
 //    }
+
+    private static final String REPOSITORY = "eroshenkoam/allure-example";
+    private static final String ISSUE_NUMBER = "76";
     @Test
     public void testGithubIssue() {
         SelenideLogger.addListener("allure-selenide", new AllureSelenide()
                 .screenshots(true)
                 .savePageSource(true));
-
-        open("https://github.com");
-        $("input[name=q]").
-                setValue("eroshenkoam/allure-example").
-                pressEnter();
-        $(linkText("eroshenkoam/allure-example")).
-                click();
-//        $("#issues-tab").
-//                click();
-        $(partialLinkText("Issues")).
-                click();
-        $(withText("#796")).
-                click();
-
-
-
+        WebSteps steps= new WebSteps();
+        steps.openSite();
+        steps.searchRepo(REPOSITORY);
+        steps.clickRepo(REPOSITORY);
+        steps.openIssues();
+        steps.selectIssue(ISSUE_NUMBER);
     }
-
 }
